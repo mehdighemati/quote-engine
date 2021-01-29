@@ -3,6 +3,7 @@ package com.shutl.model;
 public class Quote {
     String pickupPostcode;
     String deliveryPostcode;
+    String vehicleType;
     Long price;
 
     public Quote() {}
@@ -12,10 +13,33 @@ public class Quote {
         this.deliveryPostcode = deliveryPostcode;
     }
 
+    public Quote(String pickupPostcode, String deliveryPostcode, String vehicleType) {
+        this.pickupPostcode = pickupPostcode;
+        this.deliveryPostcode = deliveryPostcode;
+        this.vehicleType = vehicleType;
+    }
+
     public Quote(String pickupPostcode, String deliveryPostcode, Long price) {
         this.pickupPostcode = pickupPostcode;
         this.deliveryPostcode = deliveryPostcode;
         this.price = price;
+    }
+
+    public Quote(String pickupPostcode, String deliveryPostcode, String vehicleType, Long price) {
+        this.pickupPostcode = pickupPostcode;
+        this.deliveryPostcode = deliveryPostcode;
+        this.vehicleType = vehicleType;
+        this.price = price;
+    }
+
+
+
+    public String getVehicleType() {
+        return vehicleType;
+    }
+
+    public void setVehicleType(String vehicleType) {
+        this.vehicleType = vehicleType;
     }
 
     public String getPickupPostcode() {
