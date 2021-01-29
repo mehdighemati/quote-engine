@@ -1,5 +1,6 @@
 # Quote Engine
 
+This quote engine uses a springboot API with a responsive React frontend that works on smaller and larger screens.
 
 ![Quote Engine](https://i.imgur.com/4lels9F.png)
 
