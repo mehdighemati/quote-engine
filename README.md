@@ -1,7 +1,7 @@
 # Take home exercise
 
 
-![Quote Engine](https://imgur.com/a/TkLUorQ)
+![Quote Engine](https://i.imgur.com/4lels9F.png)
 
 Required: Node, Gradle, Java 8
 
